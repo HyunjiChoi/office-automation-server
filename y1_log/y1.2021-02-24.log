@@ -1,0 +1,610 @@
+2021:02:24 19:59:14.495 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 13048 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 19:59:14.496 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 19:59:14.533 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 19:59:14.533 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 19:59:15.746 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8888 (http)
+2021:02:24 19:59:15.746 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8888"]
+2021:02:24 19:59:15.746 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 19:59:15.746 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 19:59:15.809 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 19:59:15.809 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1275 ms
+2021:02:24 19:59:16.059 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 19:59:16.074 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 19:59:16.090 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 19:59:33.277 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 1344 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 19:59:33.278 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 19:59:33.308 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 19:59:33.308 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 19:59:34.243 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8888 (http)
+2021:02:24 19:59:34.249 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8888"]
+2021:02:24 19:59:34.249 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 19:59:34.250 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 19:59:34.313 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 19:59:34.314 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1005 ms
+2021:02:24 19:59:34.574 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 19:59:34.589 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 19:59:34.601 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 20:00:03.577 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 5200 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 20:00:03.578 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 20:00:03.607 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 20:00:03.607 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 20:00:04.544 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8888 (http)
+2021:02:24 20:00:04.550 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8888"]
+2021:02:24 20:00:04.550 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 20:00:04.550 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 20:00:04.610 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 20:00:04.610 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1002 ms
+2021:02:24 20:00:04.858 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 20:00:04.919 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 20:00:04.947 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 20:00:05.177 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8888"]
+2021:02:24 20:00:05.197 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8888 (http) with context path ''
+2021:02:24 20:00:05.198 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 20:00:05.206 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 20:00:05.225 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 20:00:05.303 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.058 seconds (JVM running for 2.534)
+2021:02:24 20:00:20.429 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 20:00:20.430 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 20:00:20.430 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 20:03:29.265 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 3264 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 20:03:29.266 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 20:03:29.297 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 20:03:29.298 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 20:03:30.273 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 20:03:30.279 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 20:03:30.280 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 20:03:30.280 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 20:03:30.339 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 20:03:30.339 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1040 ms
+2021:02:24 20:03:30.585 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 20:03:30.640 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 20:03:30.666 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 20:03:30.877 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 20:03:30.892 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 20:03:30.893 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 20:03:30.901 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 20:03:30.921 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 20:03:31.003 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.093 seconds (JVM running for 2.58)
+2021:02:24 20:03:40.605 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 20:03:40.605 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 20:03:40.606 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:31:12.369 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 10856 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:31:12.370 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:31:12.421 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:31:12.422 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:31:13.823 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:31:13.830 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:31:13.830 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:31:13.830 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:31:13.892 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:31:13.893 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1470 ms
+2021:02:24 22:31:14.290 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:31:14.347 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:31:14.381 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:31:14.485 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:31:14.501 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:31:14.502 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:31:14.510 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:31:14.528 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:31:14.615 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.944 seconds (JVM running for 3.552)
+2021:02:24 22:31:16.973 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:31:16.973 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:31:16.974 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:31:27.377 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:31:27.643 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:34:19.248 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 10688 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:34:19.249 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:34:19.277 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:34:19.278 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:34:20.197 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:34:20.203 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:34:20.204 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:34:20.204 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:34:20.263 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:34:20.264 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 986 ms
+2021:02:24 22:34:20.633 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:34:20.689 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:34:20.715 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:34:20.812 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:34:20.826 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:34:20.827 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:34:20.836 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:34:20.857 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:34:20.940 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.046 seconds (JVM running for 2.536)
+2021:02:24 22:34:24.927 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:34:24.927 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:34:24.928 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:34:24.955 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:34:25.188 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:35:25.807 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 6100 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:35:25.808 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:35:25.837 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:35:25.837 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:35:26.751 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:35:26.757 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:35:26.758 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:35:26.758 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:35:26.810 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:35:26.810 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 972 ms
+2021:02:24 22:35:27.184 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:35:27.242 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:35:27.271 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:35:27.377 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:35:27.392 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:35:27.394 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:35:27.403 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:35:27.424 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:35:27.512 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.04 seconds (JVM running for 2.497)
+2021:02:24 22:35:29.826 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:35:29.826 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:35:29.826 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 22:35:29.851 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:35:30.044 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:37:40.558 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 1372 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:37:40.559 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:37:40.590 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:37:40.590 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:37:41.512 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:37:41.518 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:37:41.519 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:37:41.519 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:37:41.584 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:37:41.585 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 994 ms
+2021:02:24 22:37:41.984 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:37:42.044 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:37:42.072 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:37:42.178 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:37:42.193 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:37:42.194 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:37:42.203 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:37:42.223 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:37:42.310 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.101 seconds (JVM running for 2.594)
+2021:02:24 22:37:43.811 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:37:43.812 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:37:43.812 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 22:37:43.837 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:37:44.041 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:38:11.743 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 4792 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:38:11.744 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:38:11.774 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:38:11.774 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:38:12.756 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:38:12.763 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:38:12.763 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:38:12.763 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:38:12.823 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:38:12.824 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1049 ms
+2021:02:24 22:38:13.231 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:38:13.295 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:38:13.325 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:38:13.433 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:38:13.450 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:38:13.452 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:38:13.461 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:38:13.482 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:38:13.574 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.176 seconds (JVM running for 2.653)
+2021:02:24 22:38:14.787 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:38:14.787 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:38:14.788 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:38:14.814 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:38:15.031 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:40:00.178 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 6984 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:40:00.179 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:40:00.221 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:40:00.221 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:40:01.203 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:40:01.209 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:40:01.210 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:40:01.210 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:40:01.269 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:40:01.269 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1047 ms
+2021:02:24 22:40:01.636 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:40:01.687 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:40:01.713 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:40:01.815 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:40:01.833 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:40:01.833 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:40:01.842 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:40:01.861 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:40:01.944 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.846 seconds (JVM running for 3.41)
+2021:02:24 22:40:04.096 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:40:04.096 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:40:04.097 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:40:04.122 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:40:04.326 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:41:33.440 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 4008 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:41:33.441 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:41:33.472 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:41:33.472 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:41:34.448 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:41:34.453 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:41:34.454 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:41:34.454 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:41:34.509 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:41:34.509 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1036 ms
+2021:02:24 22:41:34.929 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:41:34.987 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:41:35.017 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:41:35.124 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:41:35.139 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:41:35.140 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:41:35.149 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:41:35.168 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:41:35.259 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.176 seconds (JVM running for 2.634)
+2021:02:24 22:41:37.005 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:41:37.005 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:41:37.006 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 22:41:37.031 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:41:37.230 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:42:16.221 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 5392 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:42:16.222 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:42:16.254 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:42:16.255 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:42:17.418 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:42:17.424 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:42:17.424 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:42:17.425 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:42:17.478 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:42:17.479 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1223 ms
+2021:02:24 22:42:17.850 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:42:17.904 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:42:17.930 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:42:18.025 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:42:18.039 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:42:18.040 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:42:18.049 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:42:18.069 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:42:18.153 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.285 seconds (JVM running for 2.778)
+2021:02:24 22:42:26.704 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:42:26.704 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:42:26.705 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:42:26.728 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:42:26.904 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:43:35.038 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 10172 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:43:35.039 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:43:35.068 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:43:35.068 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:43:35.994 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:43:36.000 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:43:36.000 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:43:36.001 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:43:36.053 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:43:36.053 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 984 ms
+2021:02:24 22:43:36.455 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:43:36.516 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:43:36.544 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:43:36.649 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:43:36.664 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:43:36.665 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:43:36.675 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:43:36.695 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:43:36.785 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.079 seconds (JVM running for 2.54)
+2021:02:24 22:43:38.755 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:43:38.755 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:43:38.756 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:43:38.780 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:43:39.013 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:44:27.663 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 6904 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:44:27.664 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:44:27.697 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:44:27.697 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:44:28.652 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:44:28.658 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:44:28.658 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:44:28.658 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:44:28.713 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:44:28.714 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1015 ms
+2021:02:24 22:44:28.879 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 22:44:28.890 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 22:46:05.153 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 6312 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:46:05.154 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:46:05.184 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:46:05.184 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:46:06.141 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:46:06.147 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:46:06.148 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:46:06.148 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:46:06.203 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:46:06.203 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1018 ms
+2021:02:24 22:46:06.378 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 22:46:06.390 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 22:46:59.541 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 3384 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:46:59.542 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:46:59.571 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:46:59.572 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:47:00.519 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:47:00.526 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:47:00.527 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:47:00.527 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:47:00.590 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:47:00.590 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1018 ms
+2021:02:24 22:47:00.766 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 22:47:00.777 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 22:48:56.902 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 5688 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:48:56.903 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:48:56.962 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:48:56.962 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:48:58.058 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:48:58.063 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:48:58.064 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:48:58.064 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:48:58.115 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:48:58.116 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1153 ms
+2021:02:24 22:48:58.483 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:48:58.535 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:48:58.565 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:48:58.656 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:48:58.670 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:48:58.671 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:48:58.679 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:48:58.700 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:48:58.781 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.803 seconds (JVM running for 3.372)
+2021:02:24 22:49:01.259 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:49:01.259 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:49:01.261 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:49:01.284 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:49:01.482 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:49:41.367 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 924 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:49:41.368 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:49:41.397 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:49:41.398 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:49:42.318 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:49:42.325 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:49:42.325 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:49:42.325 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:49:42.377 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:49:42.377 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 979 ms
+2021:02:24 22:49:42.775 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:49:42.837 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:49:42.868 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:49:42.981 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:49:42.997 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:49:42.998 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:49:43.006 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:49:43.028 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:49:43.119 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.084 seconds (JVM running for 2.568)
+2021:02:24 22:49:45.649 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:49:45.649 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:49:45.650 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:49:45.677 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:49:45.897 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:50:31.691 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 7044 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:50:31.692 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:50:31.722 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:50:31.723 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:50:32.638 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:50:32.644 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:50:32.645 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:50:32.645 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:50:32.696 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:50:32.696 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 973 ms
+2021:02:24 22:50:33.073 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:50:33.128 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:50:33.154 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:50:33.252 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:50:33.267 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:50:33.268 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:50:33.276 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:50:33.297 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:50:33.381 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.036 seconds (JVM running for 2.484)
+2021:02:24 22:50:36.289 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:50:36.289 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:50:36.291 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:50:36.315 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:50:36.506 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:51:48.347 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 9172 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:51:48.348 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:51:48.383 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:51:48.383 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:51:49.361 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:51:49.368 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:51:49.368 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:51:49.368 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:51:49.427 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:51:49.427 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1043 ms
+2021:02:24 22:51:49.808 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:51:49.862 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:51:49.890 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:51:49.988 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:51:50.004 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:51:50.005 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:51:50.013 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:51:50.034 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:51:50.119 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.114 seconds (JVM running for 2.615)
+2021:02:24 22:51:51.590 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:51:51.590 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:51:51.591 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:51:51.616 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:51:51.851 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:52:58.327 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 5000 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:52:58.328 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:52:58.359 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:52:58.360 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:52:59.294 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:52:59.300 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:52:59.300 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:52:59.300 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:52:59.360 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:52:59.360 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 999 ms
+2021:02:24 22:52:59.734 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:52:59.790 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:52:59.816 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:52:59.917 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:52:59.932 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:52:59.933 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:52:59.942 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:52:59.961 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:53:00.047 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.061 seconds (JVM running for 2.523)
+2021:02:24 22:53:03.064 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:53:03.064 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:53:03.065 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 22:53:03.089 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:53:03.285 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 22:59:06.991 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 6284 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 22:59:06.991 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 22:59:07.022 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 22:59:07.022 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 22:59:08.014 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 22:59:08.020 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:59:08.020 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 22:59:08.021 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 22:59:08.083 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 22:59:08.084 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1058 ms
+2021:02:24 22:59:08.444 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 22:59:08.506 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 22:59:08.522 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 22:59:08.636 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 22:59:08.651 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 22:59:08.651 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 22:59:08.651 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 22:59:08.682 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 22:59:08.761 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.128 seconds (JVM running for 2.623)
+2021:02:24 22:59:13.827 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 22:59:13.827 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 22:59:13.828 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 22:59:13.852 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 22:59:14.071 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 23:01:23.806 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 10700 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:01:23.806 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:01:23.833 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:01:23.833 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:01:24.807 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:01:24.807 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:01:24.807 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:01:24.807 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:01:24.869 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:01:24.869 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1036 ms
+2021:02:24 23:01:25.038 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:02:24 23:01:25.054 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021:02:24 23:01:46.138 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 11444 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:01:46.139 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:01:46.169 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:01:46.170 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:01:47.129 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:01:47.145 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:01:47.145 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:01:47.145 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:01:47.192 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:01:47.192 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1021 ms
+2021:02:24 23:01:47.564 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 23:01:47.611 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 23:01:47.643 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 23:01:47.736 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:01:47.752 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 23:01:47.752 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 23:01:47.768 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 23:01:47.783 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 23:01:47.861 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.103 seconds (JVM running for 2.576)
+2021:02:24 23:01:50.994 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 23:01:50.994 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 23:01:50.995 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 23:01:51.020 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 23:01:51.207 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 23:02:57.364 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 12808 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:02:57.364 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:02:57.393 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:02:57.393 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:02:58.378 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:02:58.384 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:02:58.384 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:02:58.384 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:02:58.436 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:02:58.436 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1035 ms
+2021:02:24 23:02:58.815 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 23:02:58.870 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 23:02:58.897 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 23:02:58.996 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:02:59.012 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 23:02:59.013 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 23:02:59.021 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 23:02:59.042 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 23:02:59.113 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.123 seconds (JVM running for 2.693)
+2021:02:24 23:03:02.925 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 23:03:02.925 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 23:03:02.926 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 23:03:02.950 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 23:03:03.131 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 23:03:11.639 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 1748 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:03:11.639 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:03:11.662 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:03:11.662 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:03:12.595 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:03:12.595 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:03:12.595 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:03:12.595 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:03:12.658 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:03:12.658 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 996 ms
+2021:02:24 23:03:13.052 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 23:03:13.115 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 23:03:13.140 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 23:03:13.238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:03:13.253 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 23:03:13.254 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 23:03:13.263 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 23:03:13.283 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 23:03:13.368 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.095 seconds (JVM running for 2.628)
+2021:02:24 23:03:19.227 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 23:03:19.227 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 23:03:19.228 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 23:03:19.252 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 23:03:19.481 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 23:03:29.260 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 8388 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:03:29.260 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:03:29.293 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:03:29.293 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:03:30.284 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:03:30.290 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:03:30.290 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:03:30.290 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:03:30.346 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:03:30.346 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1053 ms
+2021:02:24 23:03:30.747 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 23:03:30.806 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 23:03:30.836 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 23:03:30.932 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:03:30.947 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 23:03:30.947 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 23:03:30.963 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 23:03:30.978 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 23:03:31.072 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.182 seconds (JVM running for 2.756)
+2021:02:24 23:03:34.825 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 23:03:34.825 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 23:03:34.826 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:02:24 23:03:34.850 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 23:03:35.045 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:02:24 23:08:03.462 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 5400 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:02:24 23:08:03.462 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:02:24 23:08:03.493 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:02:24 23:08:03.493 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:02:24 23:08:04.460 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:02:24 23:08:04.468 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:08:04.468 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:02:24 23:08:04.468 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:02:24 23:08:04.524 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:02:24 23:08:04.524 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1025 ms
+2021:02:24 23:08:04.936 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:02:24 23:08:04.993 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:02:24 23:08:05.022 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:02:24 23:08:05.114 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:02:24 23:08:05.130 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:02:24 23:08:05.130 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:02:24 23:08:05.145 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:02:24 23:08:05.161 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:02:24 23:08:05.255 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.124 seconds (JVM running for 2.657)
+2021:02:24 23:08:10.407 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:02:24 23:08:10.408 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:02:24 23:08:10.408 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:02:24 23:08:10.432 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:02:24 23:08:10.615 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.

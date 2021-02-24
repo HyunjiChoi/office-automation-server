@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="dailyRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- default logger -->
+        <prudent>true</prudent>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./y1_log/y1.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory> <!-- 최근 1개월 까지의 로그만 저장 -->
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy:MM:dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}[%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="accessRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- default logger -->
+        <prudent>true</prudent>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./y1_log/y1_access.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory> <!-- 최근 1개월 까지의 로그만 저장 -->
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy:MM:dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}[%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="errorRollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- default logger -->
+        <prudent>true</prudent>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>error</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./y1_log/y1_error.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory> <!-- 최근 1개월 까지의 로그만 저장 -->
+        </rollingPolicy>
+        <encoder>
+            <charset>UTF-8</charset>
+            <pattern>%d{yyyy:MM:dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}[%line] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="stdout" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- console exception logger -->
+        <withJansi>true</withJansi>
+        <encoder>
+            <pattern>%d{yyyy:MM:dd HH:mm:ss.SSS} [%thread] %highlight(%-5level) %cyan(%logger{36}[%line]) - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <springProfile name="dev">
+        <root level="TRACE">
+            <appender-ref ref="stdout"/>
+            <appender-ref ref="dailyRollingFileAppender"/>
+            <appender-ref ref="errorRollingFileAppender"/>
+        </root>
+        <logger name="reactor.netty.http.server.AccessLog" level="info">
+            <appender-ref ref="accessRollingFileAppender"/>
+        </logger>
+    </springProfile>
+
+
+</configuration>
