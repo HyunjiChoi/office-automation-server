@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.caddie.voice.y1.dao.ShippingsDao">
+
+    <select id="ShippingsCalDt" resultType="String">
+        SELECT
+            DISTINCT (CAL_DT)
+        FROM
+            WORKST_SH
+        WHERE
+            FIN_WH = 'Y' AND DEL_FLAG = 'N'
+        ORDER BY
+            CAL_DT
+    </select>
+
+    <select id="ShippingsFileNm" resultType="String">
+        SELECT
+            DISTINCT (FILE_NM)
+        FROM
+            WORKST_SH
+        WHERE
+            FIN_WH = 'Y' AND DEL_FLAG = 'N'
+        ORDER BY
+            CAL_DT
+    </select>
+
+    <select id="ShippingsLnPList" resultType="String">
+    SELECT
+        LN_PARTNER
+    FROM
+        WORKST_SH
+    WHERE
+        FIN_WH = 'Y'
+        AND DEL_FLAG = 'N'
+        AND CAL_DT = #{calDt}
+    ORDER BY
+        CAL_DT
+    </select>
+
+     <select id="deregisterShippings" resultType="ShippingsList">
+        UPDATE
+            SHIPPINGS
+        SET
+           DEL_FLAG = 'Y'
+        WHERE
+              CAL_DT = #{calDt}
+              AND FILE_NM = #{fileNm}
+              AND LN_PARTNER = #{lnPartner}
+
+    </select>
+
+    <select id="deregisterShippingsWorkSt" resultType="ShippingsList">
+        UPDATE
+            WORKST_SH
+        SET
+            DEL_FLAG = 'Y'
+        WHERE
+            CAL_DT = #{calDt}
+            AND FILE_NM = #{fileNm}
+            AND LN_PARTNER = #{lnPartner}
+
+
+    </select>
+
+    <select id="shippingsDetail" resultType="ShippingsDetail">
+        SELECT
+            S,
+            NO_SO,
+            DT_SO,
+            NM_SHOP,
+            LN_PARTNER,
+            NO_ORDER,
+            CD_SPITEM,
+            NM_SPITEM,
+            CD_OPT,
+            NM_OPT,
+            NM_CUST,
+            QT_SO,
+            UM_VAT,
+            AM_VAT,
+            CM_VAT,
+            CA_VAT,
+            CM,
+            CA,
+            VAT,
+            AM_RATE_CHARGE,
+            NO_GIR,
+            PAY_TYPE,
+            NO_PO,
+            NO_GIR_MIN
+        FROM
+            SHIPPINGS
+        WHERE CAL_DT = #{calDt}
+              AND LN_PARTNER = #{lnPartner}
+              AND DEL_FLAG = 'N'
+
+    </select>
+
+</mapper>

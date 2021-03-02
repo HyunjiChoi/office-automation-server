@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.caddie.voice.y1.dao.ConfirmsDao">
+
+    <select id="ConfirmsCalDt" resultType="String">
+        SELECT
+            DISTINCT (CAL_DT)
+        FROM
+            WORKST_SH
+        WHERE
+            FIN_WH = 'Y'
+            AND CONFIRM_ST = 'Y'
+            AND DEL_FLAG = 'N'
+        ORDER BY
+            CAL_DT
+    </select>
+
+    <select id="ConfirmsLnPList" resultType="String">
+        SELECT
+            LN_PARTNER
+        FROM
+            WORKST_SH
+        WHERE
+            FIN_WH = 'Y'
+            AND CONFIRM_ST = 'Y'
+            AND DEL_FLAG = 'N'
+            AND CAL_DT = #{calDt}
+        ORDER BY
+            CAL_DT
+    </select>
+
+    <select id="deregisterConfirms" resultType="ShippingsList">
+        UPDATE
+            WORKST_SH
+        SET
+            DEL_FLAG = 'Y'
+        WHERE
+            CAL_DT = #{calDt}
+          AND CONFIRM_ST = 'Y'
+
+    </select>
+
+    <select id="ConfirmsDetail" resultType="ShippingsDetail">
+        SELECT
+            S,
+            NO_SO,
+            NM_SHOP,
+            LN_PARTNER,
+            NO_ORDER,
+            CD_SPITEM,
+            NM_SPITEM,
+            CD_OPT,
+            NM_OPT,
+            NM_CUST,
+            QT_SO,
+            UM_VAT,
+            AM_VAT,
+            CM_VAT,
+            CA_VAT,
+            CM,
+            CA,
+            VAT,
+            AM_RATE_CHARGE,
+            NO_GIR,
+            PAY_TYPE,
+            NO_PO,
+            NO_GIR_MIN
+
+        FROM
+            SHIPPINGS
+        WHERE CAL_DT = #{calDt}
+              AND LN_PARTNER = #{lnPartner}
+              AND CONFIRM_ST = 'Y'
+              AND DEL_FLAG = 'N'
+
+    </select>
+
+    <select id="registerConfirms" resultType="ShippingsDetail">
+
+    </select>
+
+</mapper>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.caddie.voice.y1.dao.SalesDao">
+
+    <select id="SalesCalDt" resultType="String">
+        SELECT
+            DISTINCT (CAL_DT)
+        FROM
+            WORKST_S
+        WHERE
+            FIN_WH = 'Y' AND DEL_FLAG = 'N'
+        GROUP BY
+            CAL_DT
+    </select>
+
+    <select id="SalesLnPList" resultType="String">
+        SELECT
+            LN_PARTNER
+        FROM
+            WORKST_S
+        WHERE
+            FIN_WH = 'Y' AND DEL_FLAG = 'N' AND CAL_DT = #{calDt}
+        ORDER BY
+            CAL_DT
+    </select>
+
+
+     <select id="deregisterSales" resultType="SalesList">
+         UPDATE
+             SALES
+         SET
+             DEL_FLAG = 'Y'
+         WHERE
+             CAL_DT = #{calDt}
+             AND LN_PARTNER = #{lnPartner}
+
+    </select>
+
+    <select id="deregisterSalesWorkSt" resultType="SalesList">
+        UPDATE
+            WORKST_S
+        SET
+            DEL_FLAG = 'Y'
+        WHERE
+            CAL_DT = #{calDt}
+            AND LN_PARTNER = #{lnPartner}
+
+    </select>
+
+    <select id="salesDetail" resultType="SalesDetail">
+        SELECT
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        FROM
+            SALES
+        WHERE
+              CAL_DT = #{calDt} AND DEL_FLAG='N'
+
+    </select>
+
+    <insert id="InsertSalesExelData_11" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+                (
+                   CAL_DT,
+                   MARKET_CD,
+                   CAL_MONTH,
+                   CAL_DAY,
+                   SALES_TYPE,
+                   AP,
+                   NO_ORDER,
+                   LN_PARTNER,
+                   NM_SPITEM,
+                   CM,
+                   COLOR,
+                   QT_SO,
+                   CA,
+                   VAT,
+                   PRICE,
+                   SUM,
+                   ETC,
+                   NM_CUST,
+                   CAL_WH
+                )
+        VALUES
+               (
+                    #{calDt},
+                    #{marketCd},
+                    #{calMonth},
+                    #{calDay},
+                    #{salesType},
+                    #{ap},
+                    #{noOrder},
+                    #{lnPartner},
+                    #{nmSpitem},
+                    #{cm},
+                    default,
+                    #{qtSo},
+                    #{ca},
+                    #{vat},
+                    #{price},
+                    #{sum},
+                    default,
+                    #{nmCust},
+                    #{calWh}
+                )
+    </insert>
+
+    <insert id="InsertSalesExelData_Gal" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+        (
+            CAL_DT,
+            MARKET_CD,
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        )
+        VALUES
+        (
+            #{calDt},
+            #{marketCd},
+            #{calMonth},
+            #{calDay},
+            #{salesType},
+            #{ap},
+            #{noOrder},
+            #{lnPartner},
+            #{nmSpitem},
+            #{cm},
+            default,
+            #{qtSo},
+            #{ca},
+            #{vat},
+            #{price},
+            #{sum},
+            default,
+            default,
+            #{calWh}
+        )
+    </insert>
+
+    <insert id="InsertSalesExelData_N" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+        (
+            CAL_DT,
+            MARKET_CD,
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        )
+        VALUES
+        (
+            #{calDt},
+            #{marketCd},
+            #{calMonth},
+            #{calDay},
+            #{salesType},
+            #{ap},
+            #{noOrder},
+            #{lnPartner},
+            #{nmSpitem},
+            #{cm},
+            default,
+            #{qtSo},
+            #{ca},
+            #{vat},
+            #{price},
+            #{sum},
+            default,
+            #{nmCust},
+            #{calWh}
+        )
+    </insert>
+
+    <insert id="InsertSalesExelData_Au" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+        (
+            CAL_DT,
+            MARKET_CD,
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        )
+        VALUES
+        (
+            #{calDt},
+            #{marketCd},
+            '03',
+            '01',
+            #{salesType},
+            #{ap},
+            #{noOrder},
+            #{lnPartner},
+            #{nmSpitem},
+            #{cm},
+            default,
+            #{qtSo},
+            #{ca},
+            #{vat},
+            #{price},
+            #{sum},
+            default,
+            #{nmCust},
+            #{calWh}
+        )
+    </insert>
+
+    <insert id="InsertSalesExelData_In" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+        (
+            CAL_DT,
+            MARKET_CD,
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        )
+        VALUES
+        (
+            #{calDt},
+            #{marketCd},
+            #{calMonth},
+            #{calDay},
+            #{salesType},
+            #{ap},
+            #{noOrder},
+            #{lnPartner},
+            #{nmSpitem},
+            #{cm},
+            default,
+            #{qtSo},
+            #{ca},
+            #{vat},
+            #{price},
+            #{sum},
+            default,
+            #{nmCust},
+            #{calWh}
+        )
+    </insert>
+
+    <insert id="InsertSalesExelData_Ha" parameterType="ExcelData">
+        INSERT INTO
+            SALES
+        (
+            CAL_DT,
+            MARKET_CD,
+            CAL_MONTH,
+            CAL_DAY,
+            SALES_TYPE,
+            AP,
+            NO_ORDER,
+            LN_PARTNER,
+            NM_SPITEM,
+            CM,
+            COLOR,
+            QT_SO,
+            CA,
+            VAT,
+            PRICE,
+            SUM,
+            ETC,
+            NM_CUST,
+            CAL_WH
+        )
+        VALUES
+        (
+            #{calDt},
+            #{marketCd},
+            #{calMonth},
+            #{calDay},
+            #{salesType},
+            #{ap},
+            #{noOrder},
+            #{lnPartner},
+            #{nmSpitem},
+            #{cm},
+            default,
+            #{qtSo},
+            #{ca},
+            #{vat},
+            #{price},
+            #{sum},
+            default,
+            #{nmCust},
+            #{calWh}
+        )
+    </insert>
+
+</mapper>

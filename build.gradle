@@ -33,6 +33,18 @@ dependencies {
 
     compile 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1'
     runtimeOnly 'mysql:mysql-connector-java:8.0.22'
+
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
+
+/*    compile group: 'org.apache.poi', name: 'poi', version: '3.11'
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.11'*/
+
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
+
+    compile group: 'commons-io', name: 'commons-io', version: '2.4'
+    compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.4'
+
+
 }
 
 dependencyManagement {
