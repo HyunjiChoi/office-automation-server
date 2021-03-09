@@ -1,0 +1,14 @@
+2021:03:09 10:25:35.524 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 15.0.2 on DESKTOP-BDN2EKJ with PID 11432 (C:\workspace-temp\project\build\classes\java\main started by hyunj in C:\workspace-temp\project)
+2021:03:09 10:25:35.524 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:09 10:25:35.556 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:09 10:25:35.556 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:09 10:25:36.564 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:09 10:25:36.580 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:09 10:25:36.580 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:09 10:25:36.580 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:09 10:25:36.642 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:09 10:25:36.642 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1086 ms
+2021:03:09 10:25:36.680 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2021:03:09 10:25:36.680 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener[136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

@@ -2,14 +2,13 @@ package com.caddie.voice.y1.domain;
 
 import lombok.Data;
 
-
 @Data
-public class SalesReg {
+public class ExcelData {
 
     private String calDt;
     private String marketCd;
-    private String calMonth;
-    private String calDay;
+    private double calMonth;
+    private double calDay;
     private String salesType;
     private String ap;
     private String noOrder;
@@ -25,5 +24,4 @@ public class SalesReg {
     private String etc;
     private String nmCust;
     private String calWh;
-
 }
