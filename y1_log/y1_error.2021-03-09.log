@@ -17,3 +17,134 @@ Action:
 
 Consider defining a bean of type 'util.JwtUtil' in your configuration.
 
+2021:03:09 10:27:18.063 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter[61] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021:03:09 10:27:18.104 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtUtil in com.caddie.voice.y1.filter.JwtRequestFilter required a bean of type 'util.JwtUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'util.JwtUtil' in your configuration.
+
+2021:03:09 10:28:16.562 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter[61] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021:03:09 10:28:16.604 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtUtil in com.caddie.voice.y1.filter.JwtRequestFilter required a bean of type 'util.JwtUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'util.JwtUtil' in your configuration.
+
+2021:03:09 10:30:09.654 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.caddie.voice.y1.controller.LoginController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2021:03:09 10:32:02.092 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter[61] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021:03:09 10:32:02.125 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtUtil in com.caddie.voice.y1.filter.JwtRequestFilter required a bean of type 'util.JwtUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'util.JwtUtil' in your configuration.
+
+2021:03:09 10:36:06.079 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter[61] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021:03:09 10:36:06.133 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtUtil in com.caddie.voice.y1.filter.JwtRequestFilter required a bean of type 'util.JwtUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'util.JwtUtil' in your configuration.
+
+2021:03:09 10:36:55.257 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter[61] - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'jwtRequestFilter': Unsatisfied dependency expressed through field 'jwtUtil'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'util.JwtUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021:03:09 10:36:55.320 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field jwtUtil in com.caddie.voice.y1.filter.JwtRequestFilter required a bean of type 'util.JwtUtil' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'util.JwtUtil' in your configuration.
+
+2021:03:09 10:38:43.559 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.caddie.voice.y1.controller.LoginController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+

@@ -1,10 +1,8 @@
 package com.caddie.voice.y1.dao;
 
 import com.caddie.voice.y1.domain.ExcelData;
-import com.caddie.voice.y1.domain.SalesList;
-import com.caddie.voice.y1.domain.SalesReg;
+import com.caddie.voice.y1.domain.SalesDetail;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -14,15 +12,13 @@ public interface SalesDao {
     List SalesCalDt();
     List<String[]> SalesLnPList(String calDt);
 
-    void deregisterSales(String calDt,  String lnPartner);
-    void deregisterSalesWorkSt(String calDt, String lnPartner);
+    void deregisterSales(String calDt);
+    void deregisterSalesWorkSt(String calDt);
 
-    List<SalesList> salesDetail(String calDt);
+    List<ExcelData> getSalesByCalDtAndLnPartner(String calDt, String lnPartner);
 
-    void InsertSalesExelData_11(ExcelData data);
-    void InsertSalesExelData_Gal(ExcelData data);
-    void InsertSalesExelData_N(ExcelData data);
-    void InsertSalesExelData_Au(ExcelData data);
-    void InsertSalesExelData_In(ExcelData data);
-    void InsertSalesExelData_Ha(ExcelData data);
+    List<SalesDetail> salesDetail(String calDt);
+
+    void InsertSalesExcelData(ExcelData data);
+    void SalesWorkStData(String calDt, String marketCd, String lnPartner);
 }

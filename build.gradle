@@ -24,6 +24,8 @@ ext {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.testng:testng:7.1.0'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
@@ -35,15 +37,14 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java:8.0.22'
 
     compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
-
-/*    compile group: 'org.apache.poi', name: 'poi', version: '3.11'
-    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.11'*/
-
     compile group: 'org.apache.poi', name: 'poi', version: '4.1.2'
 
     compile group: 'commons-io', name: 'commons-io', version: '2.4'
     compile group: 'commons-fileupload', name: 'commons-fileupload', version: '1.4'
+    //compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
 
+    compile 'javax.xml.bind:jaxb-api:2.1'
 
 }
 

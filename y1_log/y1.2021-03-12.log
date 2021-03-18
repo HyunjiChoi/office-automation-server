@@ -24,3 +24,1054 @@
 2021:03:12 09:37:42.860 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
 2021:03:12 09:37:42.992 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
 2021:03:12 09:37:43.038 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.484 seconds (JVM running for 4.243)
+2021:03:12 09:40:54.435 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 2528 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:40:54.435 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:40:54.466 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:40:54.466 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:40:55.638 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:40:55.638 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:40:55.638 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:40:55.638 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:40:55.732 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:40:55.732 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1266 ms
+2021:03:12 09:40:56.279 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:40:56.357 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:40:56.388 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:40:56.528 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:40:56.528 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:40:56.528 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:40:56.528 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:40:56.528 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:40:56.560 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9497bb9, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b0fc024, org.springframework.security.web.header.HeaderWriterFilter@1c8400b2, org.springframework.security.web.authentication.logout.LogoutFilter@1b6480c2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@482f0497, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@154e5599, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@639b8714, org.springframework.security.web.session.SessionManagementFilter@3b702c14, org.springframework.security.web.access.ExceptionTranslationFilter@1be7828a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@245fc9bb]
+2021:03:12 09:40:56.607 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:40:56.622 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:40:56.622 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:40:56.638 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:40:56.653 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:40:56.763 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:40:56.810 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.807 seconds (JVM running for 3.553)
+2021:03:12 09:41:13.868 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 4488 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:41:13.868 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:41:13.900 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:41:13.900 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:41:15.071 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:41:15.071 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:41:15.071 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:41:15.071 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:41:15.165 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:41:15.165 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1265 ms
+2021:03:12 09:41:15.680 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:41:15.759 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:41:15.790 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:41:15.930 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:41:15.930 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:41:15.930 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:41:15.930 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:41:15.930 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:41:15.946 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12830c01, org.springframework.security.web.context.SecurityContextPersistenceFilter@57904148, org.springframework.security.web.header.HeaderWriterFilter@4719e318, org.springframework.security.web.authentication.logout.LogoutFilter@de54ae1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70dc1d38, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71b96bf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a214fa4, org.springframework.security.web.session.SessionManagementFilter@46ec4ee5, org.springframework.security.web.access.ExceptionTranslationFilter@5501f1b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28118107]
+2021:03:12 09:41:15.993 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:41:16.009 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:41:16.009 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:41:16.024 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:41:16.055 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:41:16.165 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:41:16.212 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.784 seconds (JVM running for 3.518)
+2021:03:12 09:41:34.935 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 6684 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:41:34.935 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:41:34.966 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:41:34.966 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:41:36.153 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:41:36.153 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:41:36.153 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:41:36.153 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:41:36.247 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:41:36.247 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1281 ms
+2021:03:12 09:41:36.794 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:41:36.877 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:41:36.908 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:41:37.064 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:41:37.064 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:41:37.064 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:41:37.064 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:41:37.064 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:41:37.096 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46601ba2, org.springframework.security.web.context.SecurityContextPersistenceFilter@68551b, org.springframework.security.web.header.HeaderWriterFilter@631f2983, org.springframework.security.web.authentication.logout.LogoutFilter@3dedfbe7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@468042d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47edeb8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@111b0e43, org.springframework.security.web.session.SessionManagementFilter@1abe8b4, org.springframework.security.web.access.ExceptionTranslationFilter@773f59ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@337b5db5]
+2021:03:12 09:41:37.142 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:41:37.158 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:41:37.158 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:41:37.174 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:41:37.205 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:41:37.314 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:41:37.346 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.86 seconds (JVM running for 3.54)
+2021:03:12 09:42:08.579 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:42:08.581 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:42:08.582 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 09:42:35.839 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:42:36.074 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:43:07.068 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 2244 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:43:07.068 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:43:07.099 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:43:07.099 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:43:08.209 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:43:08.209 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:43:08.209 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:43:08.209 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:43:08.302 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:43:08.302 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1203 ms
+2021:03:12 09:43:08.787 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:43:08.865 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:43:08.880 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:43:09.036 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:43:09.036 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:43:09.036 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:43:09.036 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:43:09.036 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:43:09.052 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f06a3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b5fe2e0, org.springframework.security.web.header.HeaderWriterFilter@7dd8d705, org.springframework.security.web.authentication.logout.LogoutFilter@64af5239, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d85e9c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c8d9190, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16d608e, org.springframework.security.web.session.SessionManagementFilter@32bd40ca, org.springframework.security.web.access.ExceptionTranslationFilter@111bdeac, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@434966ca]
+2021:03:12 09:43:09.099 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:43:09.115 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:43:09.115 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:43:09.130 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:43:09.161 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:43:09.271 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:43:09.302 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.65 seconds (JVM running for 3.355)
+2021:03:12 09:43:45.705 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:43:45.707 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:43:45.708 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 09:43:46.398 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:43:46.587 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:44:50.877 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 8200 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:44:50.877 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:44:50.908 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:44:50.908 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:44:52.080 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:44:52.080 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:44:52.080 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:44:52.080 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:44:52.189 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:44:52.189 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1281 ms
+2021:03:12 09:44:52.736 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:44:52.814 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:44:52.830 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:44:52.986 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:44:52.986 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:44:52.986 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:44:52.986 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:44:52.986 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:44:53.017 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@496a0fe2, org.springframework.security.web.context.SecurityContextPersistenceFilter@4884f68b, org.springframework.security.web.header.HeaderWriterFilter@1b8f2b92, org.springframework.security.web.authentication.logout.LogoutFilter@a8701ca, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a845160, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c68beb0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@180464f9, org.springframework.security.web.session.SessionManagementFilter@5d518e81, org.springframework.security.web.access.ExceptionTranslationFilter@1fbb940b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23741819]
+2021:03:12 09:44:53.064 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:44:53.080 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:44:53.095 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:44:53.095 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:44:53.127 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:44:53.252 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:44:53.299 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.884 seconds (JVM running for 3.624)
+2021:03:12 09:45:08.939 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:45:08.941 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:45:08.942 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 09:45:09.575 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:45:09.795 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:46:36.799 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 3676 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:46:36.799 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:46:36.830 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:46:36.830 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:46:38.002 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:46:38.017 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:46:38.017 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:46:38.017 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:46:38.095 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:46:38.095 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1265 ms
+2021:03:12 09:46:38.568 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:46:38.646 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:46:38.662 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:46:38.803 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:46:38.803 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:46:38.803 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:46:38.803 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:46:38.803 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:46:38.818 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@534befab, org.springframework.security.web.context.SecurityContextPersistenceFilter@741561a6, org.springframework.security.web.header.HeaderWriterFilter@35710c91, org.springframework.security.web.authentication.logout.LogoutFilter@3e51de6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23a0d531, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25773da1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@676295b6, org.springframework.security.web.session.SessionManagementFilter@1def13d3, org.springframework.security.web.access.ExceptionTranslationFilter@7910b00a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@642b415a]
+2021:03:12 09:46:38.865 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:46:38.881 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:46:38.881 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:46:38.896 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:46:38.927 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:46:39.037 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:46:39.084 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.748 seconds (JVM running for 3.468)
+2021:03:12 09:46:41.200 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:46:41.203 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:46:41.204 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 09:46:41.762 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:46:41.960 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:47:13.986 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 3004 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:47:13.986 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:47:14.017 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:47:14.017 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:47:15.276 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:47:15.284 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:47:15.284 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:47:15.285 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:47:15.376 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:47:15.377 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1360 ms
+2021:03:12 09:47:15.860 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:47:15.938 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:47:15.953 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:47:16.094 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:47:16.110 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:47:16.110 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:47:16.110 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:47:16.110 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:47:16.125 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d3c5d28, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cc435f1, org.springframework.security.web.header.HeaderWriterFilter@7400bfbb, org.springframework.security.web.authentication.logout.LogoutFilter@1cb1bd70, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16810e36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76050b90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35554ec0, org.springframework.security.web.session.SessionManagementFilter@53c0e144, org.springframework.security.web.access.ExceptionTranslationFilter@2f3d224d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c09517d]
+2021:03:12 09:47:16.172 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:47:16.188 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:47:16.188 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:47:16.203 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:47:16.219 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:47:16.328 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:47:16.375 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.863 seconds (JVM running for 3.53)
+2021:03:12 09:47:19.068 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:47:19.069 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:47:19.070 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:03:12 09:47:19.589 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:47:19.756 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:51:05.193 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 6368 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:51:05.193 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:51:05.224 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:51:05.224 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:51:06.349 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:51:06.349 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:51:06.349 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:51:06.349 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:51:06.443 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:51:06.443 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1219 ms
+2021:03:12 09:51:06.927 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:51:06.990 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:51:07.021 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:51:07.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:51:07.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:51:07.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:51:07.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:51:07.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:51:07.193 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@eb73446, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f59c1b1, org.springframework.security.web.header.HeaderWriterFilter@3a809615, org.springframework.security.web.authentication.logout.LogoutFilter@6dfb9851, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22f96ecc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f962e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e8f6d25, org.springframework.security.web.session.SessionManagementFilter@1cf203ae, org.springframework.security.web.access.ExceptionTranslationFilter@59d112e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6ec9442a]
+2021:03:12 09:51:07.240 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:51:07.255 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:51:07.255 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:51:07.255 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:51:07.286 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:51:07.396 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:51:07.443 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.706 seconds (JVM running for 3.409)
+2021:03:12 09:51:11.624 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:51:11.626 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:51:11.627 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 09:51:11.738 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:51:11.939 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 09:53:49.928 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 11.0.2 on DESKTOP-BDN2EKJ with PID 5640 (C:\Users\hyunj\Downloads\project (2)\build\classes\java\main started by hyunj in C:\Users\hyunj\Downloads\project (2))
+2021:03:12 09:53:49.929 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 09:53:49.968 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 09:53:49.968 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 09:53:51.174 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 09:53:51.174 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:53:51.174 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 09:53:51.174 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 09:53:51.267 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 09:53:51.267 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1299 ms
+2021:03:12 09:53:51.809 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 09:53:51.892 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 09:53:51.909 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 09:53:52.089 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 09:53:52.089 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 09:53:52.089 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 09:53:52.089 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 09:53:52.089 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 09:53:52.105 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3120dedc, org.springframework.security.web.context.SecurityContextPersistenceFilter@79222aaf, org.springframework.security.web.header.HeaderWriterFilter@f2e3d1, org.springframework.security.web.authentication.logout.LogoutFilter@2a2a8219, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7014730, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58fc1e9b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45972f56, org.springframework.security.web.session.SessionManagementFilter@75eecbde, org.springframework.security.web.access.ExceptionTranslationFilter@3e64a106, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@556d78be]
+2021:03:12 09:53:52.167 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 09:53:52.183 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 09:53:52.183 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 09:53:52.199 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 09:53:52.230 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 09:53:52.339 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 09:53:52.386 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 2.917 seconds (JVM running for 3.636)
+2021:03:12 09:53:55.846 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 09:53:55.847 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 09:53:55.849 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 2 ms
+2021:03:12 09:53:55.939 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 09:53:56.139 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 10:07:53.362 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 6476 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 10:07:53.364 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 10:07:53.423 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 10:07:53.424 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 10:07:55.108 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 10:07:55.116 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:07:55.117 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 10:07:55.117 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 10:07:55.243 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 10:07:55.244 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1819 ms
+2021:03:12 10:07:55.910 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 10:07:55.998 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 10:07:56.014 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 10:07:56.199 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 10:07:56.199 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 10:07:56.200 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 10:07:56.200 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 10:07:56.200 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 10:07:56.224 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@719e563d, org.springframework.security.web.context.SecurityContextPersistenceFilter@21d41215, org.springframework.security.web.header.HeaderWriterFilter@56c78549, org.springframework.security.web.authentication.logout.LogoutFilter@68bead6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6524d568, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@58b33de7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3deaf201, org.springframework.security.web.session.SessionManagementFilter@41238ec5, org.springframework.security.web.access.ExceptionTranslationFilter@5d2d5851, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@223c36f4]
+2021:03:12 10:07:56.286 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:07:56.500 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 10:07:56.501 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 10:07:56.517 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 10:07:56.569 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 10:07:56.580 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 10:07:56.581 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 10:07:56.583 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 10:07:56.712 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 10:07:56.790 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 4.112 seconds (JVM running for 5.84)
+2021:03:12 10:08:45.231 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16116 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 10:08:45.231 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 10:08:45.278 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 10:08:45.278 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 10:08:46.746 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 10:08:46.762 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:08:46.762 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 10:08:46.762 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 10:08:46.871 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 10:08:46.871 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1593 ms
+2021:03:12 10:08:47.528 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 10:08:47.621 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 10:08:47.653 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 10:08:47.840 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 10:08:47.840 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 10:08:47.840 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 10:08:47.840 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 10:08:47.840 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 10:08:47.887 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dcfb5ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@20494f63, org.springframework.security.web.header.HeaderWriterFilter@78ce775a, org.springframework.security.web.authentication.logout.LogoutFilter@300dda0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7197f21f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ad8bb80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b3d00df, org.springframework.security.web.session.SessionManagementFilter@1f52cd8f, org.springframework.security.web.access.ExceptionTranslationFilter@6e51faee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22b1d953]
+2021:03:12 10:08:47.934 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:08:48.106 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 10:08:48.106 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 10:08:48.106 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 10:08:48.153 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 10:08:48.153 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 10:08:48.153 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 10:08:48.153 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:03:12 10:08:48.293 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 10:08:48.418 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.701 seconds (JVM running for 4.771)
+2021:03:12 10:10:16.531 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 10440 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 10:10:16.532 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 10:10:16.581 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 10:10:16.582 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 10:10:18.035 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 10:10:18.051 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:10:18.051 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 10:10:18.051 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 10:10:18.160 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 10:10:18.176 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1592 ms
+2021:03:12 10:10:18.801 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 10:10:18.879 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 10:10:18.910 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 10:10:19.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 10:10:19.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 10:10:19.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 10:10:19.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 10:10:19.097 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 10:10:19.144 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f8eb36e, org.springframework.security.web.context.SecurityContextPersistenceFilter@c65ddef, org.springframework.security.web.header.HeaderWriterFilter@3f36ecd7, org.springframework.security.web.authentication.logout.LogoutFilter@ccc4c21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14240f86, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3552a590, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d88a781, org.springframework.security.web.session.SessionManagementFilter@619230ec, org.springframework.security.web.access.ExceptionTranslationFilter@42813ac6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71307ba]
+2021:03:12 10:10:19.191 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:10:19.363 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 10:10:19.363 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 10:10:19.379 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 10:10:19.410 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 10:10:19.551 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 10:10:19.597 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.623 seconds (JVM running for 4.708)
+2021:03:12 10:10:22.449 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 10:10:22.450 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 10:10:22.451 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 10:11:10.492 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 10:11:10.727 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 10:13:20.271 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 11084 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 10:13:20.286 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 10:13:20.317 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 10:13:20.317 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 10:13:21.771 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 10:13:21.786 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:13:21.786 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 10:13:21.786 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 10:13:21.896 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 10:13:21.911 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1578 ms
+2021:03:12 10:13:22.515 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 10:13:22.606 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 10:13:22.624 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 10:13:22.827 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 10:13:22.827 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 10:13:22.827 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 10:13:22.827 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 10:13:22.827 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 10:13:22.859 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41a38264, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fc636ad, org.springframework.security.web.header.HeaderWriterFilter@60584876, org.springframework.security.web.authentication.logout.LogoutFilter@1a2cf5a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78b8975e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e28814e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f2161c1, org.springframework.security.web.session.SessionManagementFilter@4c432ad6, org.springframework.security.web.access.ExceptionTranslationFilter@1e309d48, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d77fbd6]
+2021:03:12 10:13:22.921 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:13:23.077 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 10:13:23.077 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 10:13:23.093 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 10:13:23.124 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 10:13:23.263 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 10:13:23.310 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.563 seconds (JVM running for 4.723)
+2021:03:12 10:13:30.533 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 10:13:30.533 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 10:13:30.533 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:03:12 10:13:30.642 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 10:13:30.877 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 10:30:35.362 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 11808 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 10:30:35.362 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 10:30:35.409 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 10:30:35.409 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 10:30:37.006 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 10:30:37.021 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:30:37.021 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 10:30:37.021 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 10:30:37.131 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 10:30:37.131 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1706 ms
+2021:03:12 10:30:37.828 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 10:30:37.926 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 10:30:37.960 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 10:30:38.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 10:30:38.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 10:30:38.161 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 10:30:38.162 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 10:30:38.162 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 10:30:38.197 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dcfb5ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@20494f63, org.springframework.security.web.header.HeaderWriterFilter@78ce775a, org.springframework.security.web.authentication.logout.LogoutFilter@300dda0c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7197f21f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ad8bb80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b3d00df, org.springframework.security.web.session.SessionManagementFilter@1f52cd8f, org.springframework.security.web.access.ExceptionTranslationFilter@6e51faee, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22b1d953]
+2021:03:12 10:30:38.255 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 10:30:38.412 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 10:30:38.412 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 10:30:38.428 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 10:30:38.459 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 10:30:38.600 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 10:30:38.662 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.864 seconds (JVM running for 4.887)
+2021:03:12 10:30:39.537 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 10:30:39.537 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 10:30:39.537 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 0 ms
+2021:03:12 10:30:39.647 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 10:30:39.897 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 11:18:32.605 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 4772 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 11:18:32.607 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 11:18:32.652 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 11:18:32.654 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 11:18:34.122 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 11:18:34.138 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:18:34.138 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 11:18:34.138 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 11:18:34.247 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 11:18:34.247 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1592 ms
+2021:03:12 11:18:34.904 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 11:18:34.982 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 11:18:35.029 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 11:18:35.201 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 11:18:35.201 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 11:18:35.201 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 11:18:35.201 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 11:18:35.201 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 11:18:35.247 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a3b5610, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cc4a5fb, org.springframework.security.web.header.HeaderWriterFilter@657db2c7, org.springframework.security.web.authentication.logout.LogoutFilter@5926627c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@524f25c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28661901, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60f88800, org.springframework.security.web.session.SessionManagementFilter@52f96628, org.springframework.security.web.access.ExceptionTranslationFilter@6b6fd399, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44824c43]
+2021:03:12 11:18:35.294 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:18:35.466 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 11:18:35.466 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 11:18:35.482 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 11:18:35.513 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 11:18:35.654 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 11:18:35.701 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.643 seconds (JVM running for 4.682)
+2021:03:12 11:18:57.003 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 11:18:57.004 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 11:18:57.006 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 11:18:57.824 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 11:18:58.043 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 11:22:36.516 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 5312 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 11:22:36.516 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 11:22:36.562 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 11:22:36.562 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 11:22:38.065 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 11:22:38.073 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:22:38.074 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 11:22:38.075 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 11:22:38.199 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 11:22:38.199 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1637 ms
+2021:03:12 11:22:38.861 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 11:22:38.955 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 11:22:38.986 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 11:22:39.189 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 11:22:39.189 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 11:22:39.189 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 11:22:39.189 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 11:22:39.189 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 11:22:39.220 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53e726ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@7197f21f, org.springframework.security.web.header.HeaderWriterFilter@2dfaff26, org.springframework.security.web.authentication.logout.LogoutFilter@27868d74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53f0506e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47a44107, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e56b2a6, org.springframework.security.web.session.SessionManagementFilter@20494f63, org.springframework.security.web.access.ExceptionTranslationFilter@41df1cd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c25443e]
+2021:03:12 11:22:39.283 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:22:39.439 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 11:22:39.439 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 11:22:39.455 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 11:22:39.486 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 11:22:39.627 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 11:22:39.673 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.698 seconds (JVM running for 4.748)
+2021:03:12 11:22:46.273 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 11:22:46.274 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 11:22:46.277 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 2 ms
+2021:03:12 11:22:46.397 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 11:22:46.621 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 11:24:19.220 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 11292 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 11:24:19.221 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 11:24:19.269 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 11:24:19.270 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 11:24:20.849 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 11:24:20.858 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:24:20.858 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 11:24:20.858 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 11:24:20.983 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 11:24:20.991 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1720 ms
+2021:03:12 11:24:21.607 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 11:24:21.701 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 11:24:21.732 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 11:24:21.935 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 11:24:21.935 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 11:24:21.935 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 11:24:21.935 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 11:24:21.935 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 11:24:21.982 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b3d00df, org.springframework.security.web.context.SecurityContextPersistenceFilter@78a07631, org.springframework.security.web.header.HeaderWriterFilter@147a48e5, org.springframework.security.web.authentication.logout.LogoutFilter@1facc67a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39a8326f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67c8d715, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53e726ce, org.springframework.security.web.session.SessionManagementFilter@b7861fb, org.springframework.security.web.access.ExceptionTranslationFilter@3c9a085e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e94d34e]
+2021:03:12 11:24:22.029 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 11:24:22.201 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 11:24:22.201 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 11:24:22.217 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 11:24:22.248 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 11:24:22.416 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 11:24:22.476 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.876 seconds (JVM running for 4.961)
+2021:03:12 11:24:24.723 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 11:24:24.724 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 11:24:24.727 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 2 ms
+2021:03:12 11:24:25.543 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 11:24:25.903 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 12:33:20.440 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 2716 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 12:33:20.440 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 12:33:20.487 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 12:33:20.487 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 12:33:22.075 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 12:33:22.084 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 12:33:22.084 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 12:33:22.084 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 12:33:22.200 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 12:33:22.209 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1722 ms
+2021:03:12 12:33:22.817 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 12:33:22.895 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 12:33:22.926 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 12:33:23.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 12:33:23.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 12:33:23.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 12:33:23.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 12:33:23.113 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 12:33:23.160 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b42d5aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@78b8975e, org.springframework.security.web.header.HeaderWriterFilter@75937a3, org.springframework.security.web.authentication.logout.LogoutFilter@5029221e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3552a590, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@160ef5e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1276b14a, org.springframework.security.web.session.SessionManagementFilter@2fc636ad, org.springframework.security.web.access.ExceptionTranslationFilter@28fa5e12, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fc43716]
+2021:03:12 12:33:23.207 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 12:33:23.379 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 12:33:23.379 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 12:33:23.395 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 12:33:23.426 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 12:33:23.567 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 12:33:23.613 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.773 seconds (JVM running for 5.209)
+2021:03:12 12:33:32.766 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 12:33:32.767 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 12:33:32.769 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 12:33:32.963 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 12:33:33.204 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 12:43:52.710 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 11152 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 12:43:52.710 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 12:43:52.757 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 12:43:52.757 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 12:43:54.225 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 12:43:54.241 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 12:43:54.241 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 12:43:54.241 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 12:43:54.366 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 12:43:54.366 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1609 ms
+2021:03:12 12:43:54.991 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 12:43:55.069 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 12:43:55.100 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 12:43:55.288 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 12:43:55.288 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 12:43:55.288 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 12:43:55.288 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 12:43:55.288 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 12:43:55.319 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e56b2a6, org.springframework.security.web.context.SecurityContextPersistenceFilter@39a8326f, org.springframework.security.web.header.HeaderWriterFilter@7fc1b3b2, org.springframework.security.web.authentication.logout.LogoutFilter@5bf91d7d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@289ab5df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3055f999, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e660e55, org.springframework.security.web.session.SessionManagementFilter@78a07631, org.springframework.security.web.access.ExceptionTranslationFilter@19a9780b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79ee2799]
+2021:03:12 12:43:55.382 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 12:43:55.538 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 12:43:55.553 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 12:43:55.553 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 12:43:55.585 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 12:43:55.725 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 12:43:55.788 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.588 seconds (JVM running for 4.558)
+2021:03:12 12:43:59.774 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 12:43:59.775 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 12:43:59.777 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 12:44:00.584 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 12:44:00.815 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 13:12:20.524 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16448 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:12:20.525 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:12:20.575 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:12:20.576 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:12:22.093 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 13:12:22.101 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 13:12:22.101 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:12:22.101 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:12:22.240 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:12:22.255 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1678 ms
+2021:03:12 13:12:22.883 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:12:22.961 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:12:23.008 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:12:23.197 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:12:23.213 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:12:23.213 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:12:23.213 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:12:23.213 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:12:23.244 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c04a151, org.springframework.security.web.context.SecurityContextPersistenceFilter@67ca55e2, org.springframework.security.web.header.HeaderWriterFilter@1676061c, org.springframework.security.web.authentication.logout.LogoutFilter@67f3cf95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44205df1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55605827, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@240fb8f9, org.springframework.security.web.session.SessionManagementFilter@175f0190, org.springframework.security.web.access.ExceptionTranslationFilter@18c41ee3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7910319f]
+2021:03:12 13:12:23.291 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 13:12:23.471 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 13:12:23.472 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:12:23.486 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:12:23.527 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:12:23.676 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:12:23.729 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.775 seconds (JVM running for 4.939)
+2021:03:12 13:13:12.261 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16128 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:13:12.261 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:13:12.308 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:13:12.308 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:13:13.789 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 13:13:13.789 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:13:13.789 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:13:13.789 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:13:13.914 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:13:13.914 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1606 ms
+2021:03:12 13:13:14.575 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:13:14.667 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:13:14.701 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:13:14.888 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:13:14.888 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:13:14.888 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:13:14.888 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:13:14.888 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:13:14.919 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44824c43, org.springframework.security.web.context.SecurityContextPersistenceFilter@50113fa5, org.springframework.security.web.header.HeaderWriterFilter@6524d568, org.springframework.security.web.authentication.logout.LogoutFilter@35847943, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b418d9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1833f011, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6edc48f8, org.springframework.security.web.session.SessionManagementFilter@681dc86a, org.springframework.security.web.access.ExceptionTranslationFilter@41238ec5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61726e3e]
+2021:03:12 13:13:14.982 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:13:15.138 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 13:13:15.154 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:13:15.154 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:13:15.201 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:13:15.344 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:13:15.391 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.653 seconds (JVM running for 4.721)
+2021:03:12 13:13:16.956 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 13:13:16.957 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 13:13:16.958 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 13:13:17.140 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 13:13:17.551 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 13:29:11.093 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 15620 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:29:11.093 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:29:11.139 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:29:11.155 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:29:12.622 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 13:29:12.637 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:29:12.637 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:29:12.637 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:29:12.762 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:29:12.762 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1607 ms
+2021:03:12 13:29:13.419 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:29:13.528 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:29:13.559 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:29:13.747 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:29:13.747 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:29:13.747 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:29:13.747 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:29:13.747 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:29:13.794 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f1bb1c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3552a590, org.springframework.security.web.header.HeaderWriterFilter@1d451ec9, org.springframework.security.web.authentication.logout.LogoutFilter@1213b36e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64943d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169224fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b00fe89, org.springframework.security.web.session.SessionManagementFilter@78b8975e, org.springframework.security.web.access.ExceptionTranslationFilter@60584876, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47ebd8d0]
+2021:03:12 13:29:13.841 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:29:13.997 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 13:29:13.997 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:29:14.012 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:29:14.044 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:29:14.184 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:29:14.231 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.652 seconds (JVM running for 4.674)
+2021:03:12 13:36:23.224 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 13:36:23.225 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 13:36:23.228 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 3 ms
+2021:03:12 13:36:23.424 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 13:36:23.677 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 13:37:17.191 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 13488 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:37:17.191 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:37:17.238 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:37:17.238 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:37:18.677 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 13:37:18.677 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:37:18.677 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:37:18.677 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:37:18.802 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:37:18.802 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1564 ms
+2021:03:12 13:37:19.411 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:37:19.505 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:37:19.552 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:37:19.742 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:37:19.742 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:37:19.742 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:37:19.742 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:37:19.742 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:37:19.789 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6adb4ea1, org.springframework.security.web.context.SecurityContextPersistenceFilter@138e9b91, org.springframework.security.web.header.HeaderWriterFilter@5611592b, org.springframework.security.web.authentication.logout.LogoutFilter@451a1d80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ea2d252, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c75db88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66dd861b, org.springframework.security.web.session.SessionManagementFilter@5c7a02da, org.springframework.security.web.access.ExceptionTranslationFilter@26aff104, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f9d28c2]
+2021:03:12 13:37:19.836 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:37:20.008 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 13:37:20.008 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:37:20.023 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:37:20.054 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:37:20.195 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:37:20.258 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.576 seconds (JVM running for 4.835)
+2021:03:12 13:42:25.756 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 13:42:25.757 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 13:42:25.758 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 13:42:26.446 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 13:42:26.749 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 13:43:36.541 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 1376 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:43:36.541 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:43:36.588 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:43:36.588 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:43:38.057 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 13:43:38.057 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:43:38.057 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:43:38.057 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:43:38.182 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:43:38.182 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1594 ms
+2021:03:12 13:43:38.836 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:43:38.923 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:43:38.950 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:43:39.122 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:43:39.122 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:43:39.122 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:43:39.122 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:43:39.122 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:43:39.168 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f1bb1c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3552a590, org.springframework.security.web.header.HeaderWriterFilter@1d451ec9, org.springframework.security.web.authentication.logout.LogoutFilter@1213b36e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64943d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169224fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b00fe89, org.springframework.security.web.session.SessionManagementFilter@78b8975e, org.springframework.security.web.access.ExceptionTranslationFilter@60584876, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47ebd8d0]
+2021:03:12 13:43:39.215 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:43:39.387 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 13:43:39.387 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:43:39.403 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:43:39.434 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:43:39.575 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:43:39.622 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.587 seconds (JVM running for 4.569)
+2021:03:12 13:43:53.329 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 13:43:53.330 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 13:43:53.332 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 2 ms
+2021:03:12 13:43:54.059 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 13:43:54.270 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 13:54:53.927 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 17224 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 13:54:53.927 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 13:54:53.974 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 13:54:53.974 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 13:54:55.424 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 13:54:55.439 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:54:55.439 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 13:54:55.439 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 13:54:55.564 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 13:54:55.564 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1590 ms
+2021:03:12 13:54:56.189 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 13:54:56.283 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 13:54:56.314 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 13:54:56.502 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 13:54:56.502 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 13:54:56.502 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 13:54:56.502 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 13:54:56.502 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 13:54:56.549 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f1bb1c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3552a590, org.springframework.security.web.header.HeaderWriterFilter@1d451ec9, org.springframework.security.web.authentication.logout.LogoutFilter@1213b36e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64943d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169224fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b00fe89, org.springframework.security.web.session.SessionManagementFilter@78b8975e, org.springframework.security.web.access.ExceptionTranslationFilter@60584876, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47ebd8d0]
+2021:03:12 13:54:56.611 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 13:54:56.767 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 13:54:56.767 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 13:54:56.783 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 13:54:56.830 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 13:54:56.955 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 13:54:57.017 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.619 seconds (JVM running for 4.623)
+2021:03:12 13:55:00.776 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 13:55:00.777 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 13:55:00.778 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 13:55:00.967 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 13:55:01.212 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 14:03:03.093 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 6704 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 14:03:03.108 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 14:03:03.171 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 14:03:03.171 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 14:03:05.791 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 14:03:05.807 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:03:05.808 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 14:03:05.809 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 14:03:06.151 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 14:03:06.155 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 2984 ms
+2021:03:12 14:03:07.218 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 14:03:07.317 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 14:03:07.361 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 14:03:07.534 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 14:03:07.550 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 14:03:07.550 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 14:03:07.550 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 14:03:07.550 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 14:03:07.581 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d6ecebe, org.springframework.security.web.context.SecurityContextPersistenceFilter@289ab5df, org.springframework.security.web.header.HeaderWriterFilter@32452cb5, org.springframework.security.web.authentication.logout.LogoutFilter@7c1ce867, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e10d036, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ecf5031, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47554c8b, org.springframework.security.web.session.SessionManagementFilter@39a8326f, org.springframework.security.web.access.ExceptionTranslationFilter@147a48e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2dcfb5ec]
+2021:03:12 14:03:07.644 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:03:07.800 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 14:03:07.816 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 14:03:07.816 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 14:03:07.847 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 14:03:07.987 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 14:03:08.050 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 5.475 seconds (JVM running for 6.491)
+2021:03:12 14:03:13.122 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 14:03:13.123 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 14:03:13.124 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 14:03:13.822 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 14:03:14.041 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 14:07:21.597 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 12916 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 14:07:21.597 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 14:07:21.643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 14:07:21.643 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 14:07:23.269 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 14:07:23.269 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:07:23.269 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 14:07:23.269 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 14:07:23.384 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 14:07:23.384 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1741 ms
+2021:03:12 14:07:24.009 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 14:07:24.087 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 14:07:24.118 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 14:07:24.306 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 14:07:24.306 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 14:07:24.306 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 14:07:24.306 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 14:07:24.321 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 14:07:24.353 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@277820cd, org.springframework.security.web.context.SecurityContextPersistenceFilter@524f25c9, org.springframework.security.web.header.HeaderWriterFilter@57f6a407, org.springframework.security.web.authentication.logout.LogoutFilter@3a0983c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@242063c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@68bead6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39d0072, org.springframework.security.web.session.SessionManagementFilter@3cc4a5fb, org.springframework.security.web.access.ExceptionTranslationFilter@33d758d1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@795a7669]
+2021:03:12 14:07:24.399 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:07:24.571 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 14:07:24.571 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 14:07:24.587 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 14:07:24.618 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 14:07:24.774 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 14:07:24.821 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.823 seconds (JVM running for 5.361)
+2021:03:12 14:07:34.590 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 14:07:34.590 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 14:07:34.592 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 14:07:35.298 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 14:07:35.508 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 14:14:12.619 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16256 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 14:14:12.619 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 14:14:12.666 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 14:14:12.666 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 14:14:14.181 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 14:14:14.197 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:14:14.197 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 14:14:14.197 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 14:14:14.306 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 14:14:14.306 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1640 ms
+2021:03:12 14:14:14.931 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 14:14:15.009 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 14:14:15.056 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 14:14:15.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 14:14:15.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 14:14:15.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 14:14:15.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 14:14:15.228 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 14:14:15.259 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52cb9b75, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e0ecc9, org.springframework.security.web.header.HeaderWriterFilter@2bbf9d14, org.springframework.security.web.authentication.logout.LogoutFilter@7650af53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5014972e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@250adc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78580131, org.springframework.security.web.session.SessionManagementFilter@6d37a434, org.springframework.security.web.access.ExceptionTranslationFilter@1658b18c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@747e9798]
+2021:03:12 14:14:15.322 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:14:15.551 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 14:14:15.552 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 14:14:15.566 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 14:14:15.609 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 14:14:15.775 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 14:14:15.830 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.749 seconds (JVM running for 4.767)
+2021:03:12 14:14:31.096 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 14:14:31.097 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 14:14:31.101 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 3 ms
+2021:03:12 14:14:31.330 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 14:14:31.578 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 14:23:20.260 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16440 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 14:23:20.261 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 14:23:20.309 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 14:23:20.310 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 14:23:22.048 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 14:23:22.057 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:23:22.058 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 14:23:22.058 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 14:23:22.178 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 14:23:22.187 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1876 ms
+2021:03:12 14:23:22.834 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 14:23:22.928 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 14:23:22.959 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 14:23:23.131 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 14:23:23.131 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 14:23:23.131 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 14:23:23.131 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 14:23:23.131 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 14:23:23.178 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f1bb1c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3552a590, org.springframework.security.web.header.HeaderWriterFilter@1d451ec9, org.springframework.security.web.authentication.logout.LogoutFilter@1213b36e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64943d5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@169224fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b00fe89, org.springframework.security.web.session.SessionManagementFilter@78b8975e, org.springframework.security.web.access.ExceptionTranslationFilter@60584876, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47ebd8d0]
+2021:03:12 14:23:23.224 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:23:23.396 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 14:23:23.396 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 14:23:23.412 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 14:23:23.443 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 14:23:23.584 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 14:23:23.631 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.898 seconds (JVM running for 4.905)
+2021:03:12 14:23:36.594 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 14:23:36.595 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 14:23:36.596 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 14:23:36.799 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 14:23:37.034 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 14:36:23.817 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 15988 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 14:36:23.817 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 14:36:23.864 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 14:36:23.864 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 14:36:25.354 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8080 (http)
+2021:03:12 14:36:25.354 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:36:25.354 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 14:36:25.354 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 14:36:25.499 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 14:36:25.499 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1635 ms
+2021:03:12 14:36:26.156 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 14:36:26.249 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 14:36:26.296 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 14:36:26.485 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 14:36:26.486 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 14:36:26.486 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 14:36:26.487 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 14:36:26.487 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 14:36:26.514 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5caab9a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@32452cb5, org.springframework.security.web.header.HeaderWriterFilter@5543e2e5, org.springframework.security.web.authentication.logout.LogoutFilter@5aa33905, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a928092, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78a07631, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ce30afb, org.springframework.security.web.session.SessionManagementFilter@7fc1b3b2, org.springframework.security.web.access.ExceptionTranslationFilter@59ceba0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c5135e8]
+2021:03:12 14:36:26.576 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8080"]
+2021:03:12 14:36:26.732 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8080 (http) with context path ''
+2021:03:12 14:36:26.732 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 14:36:26.748 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 14:36:26.779 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 14:36:26.920 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 14:36:26.982 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.713 seconds (JVM running for 4.85)
+2021:03:12 14:36:40.121 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 14:36:40.122 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 14:36:40.123 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 14:36:40.957 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 14:36:41.177 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 15:43:33.659 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 16264 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 15:43:33.660 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 15:43:33.707 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 15:43:33.708 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 15:43:35.229 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 15:43:35.244 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 15:43:35.244 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 15:43:35.244 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 15:43:35.354 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 15:43:35.354 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1645 ms
+2021:03:12 15:43:36.026 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 15:43:36.104 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 15:43:36.135 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 15:43:36.338 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 15:43:36.338 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 15:43:36.338 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 15:43:36.338 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 15:43:36.338 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 15:43:36.369 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e3c9df4, org.springframework.security.web.context.SecurityContextPersistenceFilter@4686d4a9, org.springframework.security.web.header.HeaderWriterFilter@73dcae65, org.springframework.security.web.authentication.logout.LogoutFilter@4772bab2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@591d5f14, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45ebf3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5337f3dc, org.springframework.security.web.session.SessionManagementFilter@1a762e36, org.springframework.security.web.access.ExceptionTranslationFilter@2a743f60, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@629a0c32]
+2021:03:12 15:43:36.432 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 15:43:36.604 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 15:43:36.604 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 15:43:36.619 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 15:43:36.651 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 15:43:36.801 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 15:43:36.848 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.812 seconds (JVM running for 4.846)
+2021:03:12 15:45:38.380 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 12580 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 15:45:38.380 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 15:45:38.439 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 15:45:38.439 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 15:45:40.001 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 15:45:40.017 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 15:45:40.017 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 15:45:40.017 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 15:45:40.142 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 15:45:40.142 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1702 ms
+2021:03:12 15:45:40.861 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 15:45:40.947 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 15:45:40.979 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 15:45:41.202 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 15:45:41.202 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 15:45:41.202 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 15:45:41.203 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 15:45:41.203 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 15:45:41.232 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4ffe1d2a, org.springframework.security.web.context.SecurityContextPersistenceFilter@25d44ddf, org.springframework.security.web.header.HeaderWriterFilter@319605f1, org.springframework.security.web.authentication.logout.LogoutFilter@34a4111c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6959fb37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@387a2dbf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c5f36a5, org.springframework.security.web.session.SessionManagementFilter@5360adcc, org.springframework.security.web.access.ExceptionTranslationFilter@61662854, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d933569]
+2021:03:12 15:45:41.289 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 15:45:41.453 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 15:45:41.455 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 15:45:41.466 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 15:45:41.504 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 15:45:41.657 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 15:45:41.716 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.911 seconds (JVM running for 5.0)
+2021:03:12 16:31:07.033 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 14884 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 16:31:07.034 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: dev
+2021:03:12 16:31:07.078 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 16:31:07.078 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 16:31:08.574 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 16:31:08.590 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 16:31:08.590 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 16:31:08.590 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 16:31:08.719 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 16:31:08.719 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1640 ms
+2021:03:12 16:31:09.327 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 16:31:09.421 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 16:31:09.452 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 16:31:09.624 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 16:31:09.624 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 16:31:09.624 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 16:31:09.624 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 16:31:09.624 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 16:31:09.655 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@48ccf167, org.springframework.security.web.context.SecurityContextPersistenceFilter@5531ec8f, org.springframework.security.web.header.HeaderWriterFilter@1cc2f215, org.springframework.security.web.authentication.logout.LogoutFilter@3850a406, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69028726, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23b1ba3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@181d588e, org.springframework.security.web.session.SessionManagementFilter@3d0d9492, org.springframework.security.web.access.ExceptionTranslationFilter@1e83578a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@70177ee3]
+2021:03:12 16:31:09.718 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 16:31:09.880 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 16:31:09.882 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 16:31:09.882 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 16:31:09.913 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 16:31:10.058 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 16:31:10.105 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.627 seconds (JVM running for 4.621)
+2021:03:12 16:31:55.247 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 1868 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 16:31:55.248 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: prod
+2021:03:12 16:31:55.291 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 16:31:55.292 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 16:31:56.747 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 16:31:56.757 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 16:31:56.757 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 16:31:56.758 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 16:31:56.881 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 16:31:56.889 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1596 ms
+2021:03:12 16:31:57.525 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 16:31:57.603 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 16:31:57.634 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 16:31:57.822 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 16:31:57.822 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 16:31:57.822 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 16:31:57.822 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 16:31:57.822 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 16:31:57.853 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53aeb6f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@134a0622, org.springframework.security.web.header.HeaderWriterFilter@c65ddef, org.springframework.security.web.authentication.logout.LogoutFilter@46317386, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cca46c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d29504, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f26febf, org.springframework.security.web.session.SessionManagementFilter@64943d5e, org.springframework.security.web.access.ExceptionTranslationFilter@1d451ec9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1276b14a]
+2021:03:12 16:31:57.900 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 16:31:58.072 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 16:31:58.072 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 16:31:58.087 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 16:31:58.119 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 16:31:58.244 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 16:31:58.306 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.607 seconds (JVM running for 4.55)
+2021:03:12 17:12:43.669 [http-nio-8910-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 17:12:43.670 [http-nio-8910-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 17:12:43.671 [http-nio-8910-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 1 ms
+2021:03:12 17:12:43.936 [http-nio-8910-exec-4] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 17:12:44.159 [http-nio-8910-exec-4] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2021:03:12 17:17:26.485 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[55] - Starting Y1Application using Java 13.0.2 on DESKTOP-CJD0BLS with PID 936 (D:\projects\사무자동화\project\build\classes\java\main started by fixel in D:\projects\사무자동화\project)
+2021:03:12 17:17:26.487 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[664] - The following profiles are active: prod
+2021:03:12 17:17:26.545 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021:03:12 17:17:26.545 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021:03:12 17:17:28.076 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[108] - Tomcat initialized with port(s): 8910 (http)
+2021:03:12 17:17:28.084 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Initializing ProtocolHandler ["http-nio-8910"]
+2021:03:12 17:17:28.085 [restartedMain] INFO  o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2021:03:12 17:17:28.085 [restartedMain] INFO  o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021:03:12 17:17:28.214 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2021:03:12 17:17:28.214 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext[289] - Root WebApplicationContext: initialization completed in 1668 ms
+2021:03:12 17:17:28.823 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping[69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021:03:12 17:17:28.907 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor[181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021:03:12 17:17:28.939 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer[58] - LiveReload server is running on port 35729
+2021:03:12 17:17:29.123 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/api-docs'] with []
+2021:03:12 17:17:29.123 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-ui.html'] with []
+2021:03:12 17:17:29.124 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger-resources/**'] with []
+2021:03:12 17:17:29.124 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/webjars/**'] with []
+2021:03:12 17:17:29.124 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure Ant [pattern='/swagger/**'] with []
+2021:03:12 17:17:29.159 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain[51] - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3083a0bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@ed765eb, org.springframework.security.web.header.HeaderWriterFilter@5038f17d, org.springframework.security.web.authentication.logout.LogoutFilter@7910319f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3121f531, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@300e6db9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@187f2d7c, org.springframework.security.web.session.SessionManagementFilter@22e94718, org.springframework.security.web.access.ExceptionTranslationFilter@33e3517e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13efd6d1]
+2021:03:12 17:17:29.216 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol[173] - Starting ProtocolHandler ["http-nio-8910"]
+2021:03:12 17:17:29.380 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer[220] - Tomcat started on port(s): 8910 (http) with context path ''
+2021:03:12 17:17:29.381 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[160] - Context refreshed
+2021:03:12 17:17:29.393 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper[163] - Found 1 custom documentation plugin(s)
+2021:03:12 17:17:29.429 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner[41] - Scanning for api listing references
+2021:03:12 17:17:29.574 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator[40] - Generating unique operation named: downloadSalesUsingGET_1
+2021:03:12 17:17:29.625 [restartedMain] INFO  com.caddie.voice.y1.Y1Application[61] - Started Y1Application in 3.771 seconds (JVM running for 5.001)
+2021:03:12 17:18:10.808 [http-nio-8910-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021:03:12 17:18:10.809 [http-nio-8910-exec-1] INFO  o.s.web.servlet.DispatcherServlet[525] - Initializing Servlet 'dispatcherServlet'
+2021:03:12 17:18:10.811 [http-nio-8910-exec-1] INFO  o.s.web.servlet.DispatcherServlet[547] - Completed initialization in 2 ms
+2021:03:12 17:18:10.956 [http-nio-8910-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2021:03:12 17:18:11.199 [http-nio-8910-exec-2] INFO  com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.

@@ -1,4 +1,4 @@
-package src;
+package com.caddie.voice.y1.controller;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -59,7 +59,7 @@ public class excel_test {
 	{
 		XSSFWorkbook wb = new XSSFWorkbook();
 		
-		XSSFSheet s = wb.createSheet("½ÃÆ®»ý¼ºÅ×½ºÆ®1");
+		XSSFSheet s = wb.createSheet("ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½×½ï¿½Æ®1");
 		
 		for(int i = 0 ; i < 10; i++)
 		{
@@ -69,7 +69,7 @@ public class excel_test {
 			{
 				XSSFCell c = r.createCell(j);
 				
-				c.setCellValue("Å×½ºÆ®_" + i + "_" + j);
+				c.setCellValue("ï¿½×½ï¿½Æ®_" + i + "_" + j);
 			}
 			
 		}

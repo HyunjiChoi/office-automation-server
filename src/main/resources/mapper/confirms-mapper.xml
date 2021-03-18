@@ -10,16 +10,15 @@
         FROM
             WORKST_SH
         WHERE
-            FIN_WH = 'Y'
-            AND CONFIRM_ST = 'Y'
+            CONFIRM_ST = 'Y'
             AND DEL_FLAG = 'N'
         ORDER BY
-            CAL_DT
+            CAL_DT DESC
     </select>
 
-    <select id="ConfirmsLnPList" resultType="String">
+    <select id="ConfirmsNmShop" resultType="String">
         SELECT
-            LN_PARTNER
+            NM_SHOP
         FROM
             WORKST_SH
         WHERE
@@ -28,19 +27,69 @@
             AND DEL_FLAG = 'N'
             AND CAL_DT = #{calDt}
         ORDER BY
-            CAL_DT
+            CAL_DT DESC
     </select>
+
+
+    <select id="getShippingsListSelect" resultType="confirmsSelect">
+        SELECT
+            CAL_DT, FILE_NM, NM_SHOP
+        FROM
+            WORKST_SH
+        WHERE
+            FIN_WH = 'Y' AND DEL_FLAG = 'N'
+        ORDER BY
+            CAL_DT desc
+    </select>
+
 
     <select id="deregisterConfirms" resultType="ShippingsList">
         UPDATE
+            SHIPPINGS
+        SET
+            CONFIRM_ST = 'N'
+        WHERE
+            CAL_DT = #{calDt}
+          AND NM_SHOP = #{nmShop}
+          AND CONFIRM_ST = 'Y'
+
+    </select>
+
+    <select id="deregisterConfirmsWorkSt" resultType="ShippingsList">
+        UPDATE
             WORKST_SH
         SET
-            DEL_FLAG = 'Y'
+            CONFIRM_ST = 'N'
+        WHERE
+            CAL_DT = #{calDt}
+          AND NM_SHOP = #{nmShop}
+          AND CONFIRM_ST = 'Y'
+
+    </select>
+
+
+    <select id="deregisterConfirmsAll" resultType="ShippingsList">
+        UPDATE
+            SHIPPINGS
+        SET
+            CONFIRM_ST = 'N'
         WHERE
             CAL_DT = #{calDt}
           AND CONFIRM_ST = 'Y'
 
     </select>
+
+    <select id="deregisterConfirmsWorkStAll" resultType="ShippingsList">
+        UPDATE
+            WORKST_SH
+        SET
+            CONFIRM_ST = 'N'
+        WHERE
+            CAL_DT = #{calDt}
+          AND CONFIRM_ST = 'Y'
+
+    </select>
+
 
     <select id="ConfirmsDetail" resultType="ShippingsDetail">
         SELECT
@@ -71,14 +120,29 @@
         FROM
             SHIPPINGS
         WHERE CAL_DT = #{calDt}
-              AND LN_PARTNER = #{lnPartner}
+              AND NM_SHOP = #{nmShop}
               AND CONFIRM_ST = 'Y'
               AND DEL_FLAG = 'N'
 
     </select>
 
-    <select id="registerConfirms" resultType="ShippingsDetail">
 
+    <select id="registerConfirms" resultType="ShippingsDetail">
+        UPDATE SHIPPINGS sh
+            INNER JOIN SALES s
+        ON s.NO_ORDER = sh.NO_ORDER
+            AND s.CA = sh.AM_VAT
+            AND s.CAL_DT = #{calDtSal}
+            AND sh.CAL_DT = #{calDtSh}
+        SET sh.CONFIRM_ST = 'Y'
+        WHERE NM_SHOP = #{nmShop};
     </select>
+
+    <select id="registerConfirmsWorkSt" resultType="ShippingsDetail">
+        UPDATE WORKST_SH
+        SET CONFIRM_ST = 'Y'
+        WHERE NM_SHOP = #{nmShop} and CAL_DT = #{calDtSh}
+    </select>
+
 
 </mapper>

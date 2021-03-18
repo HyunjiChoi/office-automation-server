@@ -4,6 +4,12 @@
 
 <mapper namespace="com.caddie.voice.y1.dao.ShippingsDao">
 
+    <select id="getShippingByCalDtAndNmShop" resultType="ExcelDataSh">
+        select *
+        from SHIPPINGS
+        where CAL_DT = #{calDt} and NM_SHOP = #{nmShop} and DEL_FLAG = 'N'
+    </select>
+
     <select id="ShippingsCalDt" resultType="String">
         SELECT
             DISTINCT (CAL_DT)
@@ -12,23 +18,23 @@
         WHERE
             FIN_WH = 'Y' AND DEL_FLAG = 'N'
         ORDER BY
-            CAL_DT
+            CAL_DT DESC
     </select>
 
     <select id="ShippingsFileNm" resultType="String">
         SELECT
-            DISTINCT (FILE_NM)
+            FILE_NM
         FROM
             WORKST_SH
         WHERE
             FIN_WH = 'Y' AND DEL_FLAG = 'N'
         ORDER BY
-            CAL_DT
+            CAL_DT DESC
     </select>
 
-    <select id="ShippingsLnPList" resultType="String">
+    <select id="ShippingsNmShop" resultType="String">
     SELECT
-        LN_PARTNER
+        NM_SHOP
     FROM
         WORKST_SH
     WHERE
@@ -39,16 +45,15 @@
         CAL_DT
     </select>
 
-     <select id="deregisterShippings" resultType="ShippingsList">
+
+    <select id="deregisterShippings" resultType="ShippingsList">
         UPDATE
             SHIPPINGS
         SET
            DEL_FLAG = 'Y'
         WHERE
               CAL_DT = #{calDt}
-              AND FILE_NM = #{fileNm}
-              AND LN_PARTNER = #{lnPartner}
-
+              AND NM_SHOP = #{nmShop}
     </select>
 
     <select id="deregisterShippingsWorkSt" resultType="ShippingsList">
@@ -56,13 +61,33 @@
             WORKST_SH
         SET
             DEL_FLAG = 'Y'
+           ,WO_CNT = 0
         WHERE
             CAL_DT = #{calDt}
-            AND FILE_NM = #{fileNm}
-            AND LN_PARTNER = #{lnPartner}
-
-
+            AND NM_SHOP = #{nmShop}
     </select>
+
+
+    <select id="deregisterShippingsAll" resultType="ShippingsList">
+        UPDATE
+            SHIPPINGS
+        SET
+            DEL_FLAG = 'Y'
+        WHERE
+            CAL_DT = #{calDt}
+    </select>
+
+
+    <select id="deregisterShippingsWorkStAll" resultType="ShippingsList">
+        UPDATE
+            WORKST_SH
+        SET
+            DEL_FLAG = 'Y'
+          ,WO_CNT = 0
+        WHERE
+            CAL_DT = #{calDt}
+    </select>
+
 
     <select id="shippingsDetail" resultType="ShippingsDetail">
         SELECT
@@ -93,8 +118,101 @@
         FROM
             SHIPPINGS
         WHERE CAL_DT = #{calDt}
-              AND LN_PARTNER = #{lnPartner}
+              AND NM_SHOP = #{nmShop}
               AND DEL_FLAG = 'N'
+
+    </select>
+
+
+    <insert id="InsertShippingsExcelData" parameterType="ExcelDataSh">
+        INSERT INTO
+            SHIPPINGS
+        (
+            CAL_DT,
+            FILE_NM,
+            MARKET_CD,
+            CONFIRM_ST,
+            S,
+            NO_SO,
+            DT_SO,
+            NM_SHOP,
+            LN_PARTNER,
+            NO_ORDER,
+            CD_SPITEM,
+            NM_SPITEM,
+            CD_OPT,
+            NM_OPT,
+            NM_CUST,
+            QT_SO,
+            UM_VAT,
+            AM_VAT,
+            CM_VAT,
+            CA_VAT,
+            CM,
+            CA,
+            VAT,
+            AM_RATE_CHARGE,
+            NO_GIR,
+            PAY_TYPE,
+            NO_PO,
+            NO_GIR_MIN,
+            DEL_FLAG
+        )
+        VALUES
+        (
+            #{calDt},
+            #{fileNm},
+            #{marketCd},
+            default,
+            default,
+            #{noSo},
+            #{dtSo},
+            #{nmShop},
+            #{lnPartner},
+            #{noOrder},
+            #{cdSpitem},
+            #{nmSpitem},
+            #{cdOpt},
+            #{nmOpt},
+            #{nmCust},
+            #{qtSo},
+            #{umVat},
+            #{amVat},
+            #{cmVat},
+            #{caVat},
+            #{cm},
+            ${ca},
+            #{vat},
+            default,
+            #{noGir},
+            default,
+            default,
+            #{noGirMin},
+            default
+        )
+        ON DUPLICATE KEY
+        UPDATE
+            DEL_FLAG = 'N';
+    </insert>
+
+    <select id="ShippingsWorkStData" parameterType="WorkSt_Sh">
+        INSERT INTO WORKST_SH
+        VALUES (
+                   #{calDt},
+                   #{fileNm},
+                   #{marketCd},
+                   #{nmShop},
+                   default,
+                   default,
+                   'Y',
+                   default,
+                   default,
+                   default
+               )
+        ON DUPLICATE KEY
+        UPDATE
+            DEL_FLAG = 'N',
+            WO_CNT = WO_CNT + 1;
 
     </select>
 

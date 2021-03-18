@@ -9,24 +9,20 @@ import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 @Configuration
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+
     @Override
-    public void configure(WebSecurity web) throws Exception {
-        web.ignoring().antMatchers(
-                "/v2/api-docs",
-                "/configuration/ui",
-                "/swagger-resources/**",
-                "/configuration/security",
-                "/swagger-ui.html",
-                "/webjars/**",
-                "/csrf",
-                "/configuration/ui");
+    protected void configure(HttpSecurity http) throws Exception {
+        http.authorizeRequests()
+                .antMatchers("/**").permitAll()
+                .anyRequest().permitAll();
+
+        http.csrf().disable();
     }
-
     @Override
-    protected void configure(HttpSecurity http) throws Exception{
-        http.csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
-        http.authorizeRequests().antMatchers("/").permitAll();
-
+    public void configure(WebSecurity web) {
+        web.ignoring()
+                .antMatchers("/api-docs", "/swagger-ui.html", "/swagger-resources/**", "/webjars/**",
+                        "/swagger/**");
     }
 
 

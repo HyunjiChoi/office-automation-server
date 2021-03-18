@@ -1,9 +1,8 @@
 package com.caddie.voice.y1.dao;
 
-import com.caddie.voice.y1.domain.SalesList;
-import com.caddie.voice.y1.domain.SalesReg;
 import com.caddie.voice.y1.domain.ShippingsDetail;
 import com.caddie.voice.y1.domain.ShippingsList;
+import com.caddie.voice.y1.domain.confirmsSelect;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -12,11 +11,20 @@ import java.util.List;
 public interface ConfirmsDao {
 
     List ConfirmsCalDt();
-    List ConfirmsLnPList(String calDt);
+    List ConfirmsNmShop(String calDt);
 
-    void deregisterConfirms(String calDt);
-    List<ShippingsList> ConfirmsDetail(String calDt, String lnPartner);
-    List<ShippingsDetail> registerConfirms(String calDtSal, String calDtSh);
+    List<confirmsSelect> getShippingsListSelect();
+
+    void deregisterConfirms(String calDt, String nmShop);
+    void deregisterConfirmsWorkSt(String calDt, String nmShop);
+
+    void deregisterConfirmsAll(String calDt);
+    void deregisterConfirmsWorkStAll(String calDt);
+
+    List<ShippingsDetail> ConfirmsDetail(String calDt, String nmShop);
+
+    ShippingsDetail registerConfirms(String calDtSal, String calDtSh, String nmShop);
+    ShippingsDetail registerConfirmsWorkSt(String calDtSh, String nmShop);
 
 
 

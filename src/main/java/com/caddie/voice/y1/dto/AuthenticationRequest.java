@@ -1,2 +1,20 @@
-package com.caddie.voice.y1.dto;public class AuthenticationRequest {
+package com.caddie.voice.y1.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class AuthenticationRequest {
+    private String username;
+    private String password;
+
+    public AuthenticationRequest(){
+
+    }
+
+    public AuthenticationRequest(String username, String password){
+        this.username = username;
+        this.password = password;
+    }
 }

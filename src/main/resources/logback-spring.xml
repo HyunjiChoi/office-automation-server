@@ -70,5 +70,16 @@
         </logger>
     </springProfile>
 
+    <springProfile name="prod">
+        <root level="TRACE">
+            <appender-ref ref="stdout"/>
+            <appender-ref ref="dailyRollingFileAppender"/>
+            <appender-ref ref="errorRollingFileAppender"/>
+        </root>
+        <logger name="reactor.netty.http.server.AccessLog" level="info">
+            <appender-ref ref="accessRollingFileAppender"/>
+        </logger>
+    </springProfile>
+
 
 </configuration>

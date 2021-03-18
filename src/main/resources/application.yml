@@ -2,10 +2,9 @@ server:
   port: 8080
 
 spring:
-  profiles:
-    active: dev
+  profiles: dev
   application:
-    name: test
+    name: OA
   servlet:
     multipart:
       enabled: true
@@ -18,6 +17,7 @@ spring:
     url: jdbc:mysql://fixel-dev.cbmyxewpbi2k.ap-northeast-2.rds.amazonaws.com:3306/schema_vc?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
     username: fixel
     password: fixel123
+
 
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
@@ -32,3 +32,45 @@ logging:
       springframework:
         cloud:
           gateway: TRACE
+jwt:
+  secret: fixeljwt
+
+---
+
+server:
+  port: 8910
+
+spring:
+  profiles: prod
+  application:
+    name: OA
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 5MB
+      max-request-size: 25MB
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://fixel-api.co6jad5ex5nn.ap-northeast-2.rds.amazonaws.com:3306/vc_automation?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    username: fixel_api
+    password: fixel1234!#
+
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+  type-aliases-package: com.caddie.voice.y1.domain
+
+logging:
+  level:
+    root : INFO
+    org:
+      springframework:
+        cloud:
+          gateway: TRACE
+jwt:
+  secret: fixeljwt
+

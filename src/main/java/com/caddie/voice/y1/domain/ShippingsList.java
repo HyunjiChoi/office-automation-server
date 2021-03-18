@@ -8,6 +8,6 @@ public class ShippingsList {
 
     private String calDt;
     private String fileNm;
-    private String lnPartner;
+    private String nmShop;
 
 }
